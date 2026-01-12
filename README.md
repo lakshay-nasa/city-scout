@@ -15,6 +15,16 @@ City Scout streamlines this workflow:
 2.  **Draft**: Automatically syncs location metadata to a persistent backend.
 3.  **Export**: Generates a beautiful, responsive HTML email ready for newsletters or client delivery.
 
+## 📸 Project Demo
+
+### 1. The Creator Experience (Frontend)
+Users select locations on the interactive map. When they click **"Draft Email,"** the application triggers an immediate metadata event.
+![App Interface](docs/images/app_interface_screenshot.png) 
+
+### 2. The Data Observability (DataHub)
+Behind the scenes, the **Metadata Watcher** captures this event, creating a lineage graph that traces the data from the **Google Places API** to our **Firestore** production database.
+![DataHub Lineage](docs/images/datahub_lineage_screenshot.png)
+
 ## 🛠️ Tech Stack
 
 **Frontend & UI**
