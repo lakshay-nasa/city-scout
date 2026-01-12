@@ -1,0 +1,5 @@
+# DataHub SDK for emitting metadata and lineage
+acryl-datahub
+
+# Firebase Admin SDK for real-time database listeners
+firebase-admin

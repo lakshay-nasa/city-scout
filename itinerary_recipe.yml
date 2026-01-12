@@ -1,0 +1,11 @@
+# itinerary_recipe.yml
+source:
+  type: "firestore"
+  config:
+    project_id: "city-scout-dev"
+    collections:
+      - "itineraries"
+sink:
+  type: "datahub-rest"
+  config:
+    server: "http://localhost:8080"
